@@ -1,0 +1,46 @@
+:root {
+  --blue-100: #cae4fe;
+  --blue-200: #98cafd;
+  --blue-300: #66b1fc;
+  --blue-400: #3497fb;
+  --blue-500: #057df7;
+  --blue-600: #0464c5;
+  --blue-700: #034b93;
+  --blue-800: #023161;
+  --blue-900: #01182f;
+
+  --green-100: #d0ffe3;
+  --green-200: #9dffc4;
+  --green-300: #6affa5;
+  --green-400: #37ff86;
+  --green-500: #04ff68;
+  --green-600: #00d053;
+  --green-700: #009d3e;
+  --green-800: #006a2a;
+  --green-900: #003716;
+
+  --pink-100: #fdc6e1;
+  --pink-200: #fb95c7;
+  --pink-300: #f964ad;
+  --pink-400: #f73393;
+  --pink-500: #ee0979;
+  --pink-600: #bd0760;
+  --pink-700: #8c0547;
+  --pink-800: #5b032e;
+  --pink-900: #3a021d;
+
+  --orange-100: #ffe1cc;
+  --orange-200: #ffc399;
+  --orange-300: #ffa666;
+  --orange-400: #f83;
+  --orange-500: #ff6a00;
+  --orange-600: #c50;
+  --orange-700: #994000;
+  --orange-800: #662a00;
+  --orange-900: #331500;
+
+  --black: #090909;
+
+  /* GRADIENTS */
+  --rainbow-blue: linear-gradient(to right bottom, var(--green-500), var(--blue-500));
+}

@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  padding: 4rem 6rem;
+  margin-bottom: 8rem;
+  max-width: 1400px;
+}
+
+.description {
+  flex: 1 1 50vw;
+  height: fit-content;
+  color: var(--black);
+  padding: 0 4rem;
+  margin: 0 4rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.images {
+  flex: 1 1 50vw;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  opacity: 0.85;
+}
+
+.img-container {
+  position: absolute;
+  overflow: hidden;
+  transition: all 0.3s;
+  padding: 1.5rem;
+}
+.img-container:hover {
+  transform: scale(1.1);
+  outline: var(--blue-500) solid 0.8rem;
+  z-index: 10;
+}
+.img-container:hover .img {
+  opacity: 1;
+}
+.img-1 {
+  height: 30rem;
+  width: 30rem;
+  top: 0;
+  right: 40;
+  z-index: 1;
+}
+.img-2 {
+  height: 26rem;
+  width: 26rem;
+  top: 230;
+  right: 120;
+  z-index: 3;
+}
+.img-3 {
+  height: 28rem;
+  width: 28rem;
+  top: 40;
+  right: 280;
+  z-index: 2;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0;
+    margin-bottom: 8rem;
+  }
+  .description {
+    flex: 1 1 35vw;
+    padding: 0 2rem;
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .container {
+    flex-direction: column;
+  }
+  .images {
+    flex: 1 1 60vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .images {
+    flex: 1 1 70vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .images {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+/* BASE */
+@import './base/colors.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import './base/base.css';
+@import './base/animations.css';
+@import './base/typography.css';
+@import './base/layout.css';
+@import './base/utils.css';
+
+/* PAGES */
+@import './pages/home.css';
+@import './pages/description.css';
+@import './pages/history.css';
+@import './pages/testimonies.css';
+@import './pages/activities.css';
+@import './pages/booking.css';
+
+/* COMPONENTS */
+@import './components/nav.css';
+@import './components/footer.css';

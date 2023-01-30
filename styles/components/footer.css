@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  height: 13rem;
+  background-color: var(--black);
+  display: flex;
+  color: white;
+  font-size: 1.6rem;
+  padding: 4rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer__data {
+  display: flex;
+}
+.footer__author {
+  margin-right: 0.5rem;
+}
+.footer__contact {
+  color: var(--pink-500);
+}

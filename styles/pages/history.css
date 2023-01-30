@@ -1,0 +1,14 @@
+.history-section {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../../assets/history.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.history {
+  color: white;
+  padding: 6rem;
+  margin-top: 24rem;
+  max-width: 1500px;
+}
